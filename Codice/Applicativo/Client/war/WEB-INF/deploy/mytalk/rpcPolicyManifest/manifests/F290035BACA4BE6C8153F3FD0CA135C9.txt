@@ -1,0 +1,2 @@
+serviceClass: it.hourglass.myTalk.client.RPCService.RPCService
+path: 68914B7B6312DA925F138524111B772B.gwt.rpc

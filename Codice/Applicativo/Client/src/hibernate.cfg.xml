@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">12345glass678910</property>
+        <property name="hibernate.connection.url">jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com:3306/hourglass-mytalk?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">hourglass-mytalk</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hibernate.show_sql">true</property>
+   		<property name="hibernate.current_session_context_class">thread</property>
+    	<property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>
+    	<mapping resource="it/hourglass/myTalk/server/model/dao/Friendships.hbm.xml"/>
+    	<mapping resource="it/hourglass/myTalk/server/model/dao/User.hbm.xml"/>
+    	<mapping resource="it/hourglass/myTalk/server/model/dao/Message.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

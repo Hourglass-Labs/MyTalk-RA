@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="it.hourglass.myTalk.client.shared.Message" table="MESSAGE">
+        <id name="messageId" type="java.lang.Integer">
+            <column name="MESSAGEID" />
+            <generator class="identity" />
+        </id>
+        <property name="sender" type="java.lang.String">
+            <column name="SENDER" />
+        </property>
+        <property name="recipient" type="java.lang.String">
+            <column name="RECIPIENT" />
+        </property>
+        <property name="created" type="java.util.Date">
+            <column name="CREATED" />
+        </property>
+        <property name="content" type="java.lang.String">
+            <column name="CONTENT" />
+        </property>
+        <property name="friendReq" type="java.lang.Boolean">
+            <column name="FRIENDREQ" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.Contenitore {
+	margin: 0;
+	width: 100%;
+	border: 0;
+	}
+	
+.NomeUtente{
+	width: 100%;
+	margin: 5px 0 0 0;
+	
+}
+.NomeUtente img{
+	margin-left: 20px;
+}
+#VideoGuest{
+	width: 90%;
+}
+#RecuperoPassword {
+	width: 98%;
+	margin: 80px auto;
+}
+#Registrazione {
+	width: 95%;
+	margin: 40px auto;
+}
+.LoginView {
+	width: 60%;
+	margin: 100px auto;
+}
+#Profilo #datiPersonali .Pannello{
+width: 40%;
+float: left;
+}
+#Profilo #datiPersonali #pannello3{
+clear:both;
+}
+
+
+#Profilo #datiEstesi .Pannello{
+width: 40%;
+float: left;
+margin: 1px;
+font-size: 0.9em;
+}
+
+#Profilo #datiEstesi #pannello7 {
+	width: 98%;
+	text-align: right;
+}
+#Profilo #datiEstesi .PannelloDesc{
+width: 98%;
+display: block;
+margin: 10px 4px;
+}
+#Profilo #datiEstesi .PannelloDesc #Titolo {
+	font-size: 1.2em;
+	font-weight: bold;
+}

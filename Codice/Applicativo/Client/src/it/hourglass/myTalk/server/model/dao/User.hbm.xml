@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="it.hourglass.myTalk.client.shared.User" table="USER">
+        <id name="uniqueId" type="java.lang.String">
+            <column name="UNIQUEID" />
+            <generator class="assigned" />
+        </id>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="altEmail" type="java.lang.String">
+            <column name="ALTEMAIL" />
+        </property>
+        <property name="avatar" type="java.lang.String">
+            <column name="AVATAR" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="lastName" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="birthdate" type="java.util.Date">
+            <column name="BIRTHDATE" />
+        </property>
+        <property name="gender" type="char">
+            <column name="GENDER" />
+        </property>
+        <property name="hometown" type="java.lang.String">
+            <column name="HOMETOWN" />
+        </property>
+        <property name="currentLocation" type="java.lang.String">
+            <column name="CURRENTLOCATION" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="inspirations" type="java.lang.String">
+            <column name="INSPIRATIONS" />
+        </property>
+        <property name="interests" type="java.lang.String">
+            <column name="INTERESTS" />
+        </property>
+        <property name="validation" type="java.lang.String">
+            <column name="VALIDATION" />
+        </property>
+        <property name="enabled" type="java.lang.Boolean">
+            <column name="ENABLED" />
+        </property>
+    </class>
+</hibernate-mapping>

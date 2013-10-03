@@ -1,0 +1,761 @@
+body{
+margin: 0px; 
+padding: 0px;
+font-family: Verdana, Helvetica, sans-serif;
+font-size:0.9em;
+background-image:url('pattern.png');
+}
+
+
+.Contenitore {
+background-color: rgba(214, 213, 213, 1);
+width: 70%;
+margin:auto;
+min-height: 600px;
+border: solid black 1px;
+margin-top: 10px;
+}
+
+.ContenitoreSX {
+width: 200px;
+border-right: solid black 1px;
+min-height: 600px;
+float: left;
+}
+.ContenitoreDX {
+margin-left: 200px;
+}
+
+/** Codice Blocco Menu*/
+#Menu {
+position:relative;
+padding-top: 80px;
+}
+#Menu .Bottone {
+width: 100%;
+padding: 8px;
+margin: 0;
+text-align: center;
+font-weight:bold;
+font-size: 1.2em;
+}
+#Menu #logo {
+position: absolute;
+top: 0px;
+}
+/** Fine Codice Blocco Menu*/
+
+
+/** Codice Blocco CallView */
+#CorpoChiamata {
+	height: 600px;
+}
+#UtenteContattare {
+	width: 94%;
+	padding: 4px;
+	margin: 3px auto 0 auto;
+	background-color: rgba(214, 213, 213, 1);
+	border-radius: 5px;
+	text-align: center;
+}
+#UtenteContattare #BtnAV{
+display: inline;
+margin: 3px;
+}
+#UtenteContattare #BtnAV img{
+width: 18px;
+height: 18px;
+}
+#UtenteContattare div{
+display: inline;
+font-weight:bold;
+}
+#UtenteContattare input{
+display: inline;
+width: 18%;
+}
+#UtenteContattare button{
+display: inline;
+}
+#UtenteContattare button {
+  display:block;
+  width:99%;
+}
+#Video {
+height: 480px;
+background-color: black;
+}
+#VideoUtente {
+position: relative;
+top: -80px;
+height: 150px;
+width: 18%;
+border-width:1px;
+border-style:solid;
+border-color:#F0F0F0;
+margin:auto;
+}
+
+#VideoUtente video{
+	width: 100%;
+}
+
+#sourcevid {
+width: 600px;
+height: 380px;
+margin: 4px 180px;
+border: 2px solid white;
+color: white;
+}
+#Chat {
+height: 120px;
+width: 80%;
+float: left;
+}
+#ChatScorrimento {
+padding: 0;
+margin: 0;
+overflow:auto;
+}
+#ContenutoChat {
+width: 95%;
+overflow:auto;
+}
+#TestoInviare {
+width: 65%;
+margin-left: 3px;
+padding: 2px 0;
+}
+#ButtonInvia {
+padding: 2px 10px;
+width: 32%;
+}
+#StatiscticheCommunicazione {
+	width: 535px;
+	background-color: rgba(214, 213, 213, 1);
+	padding: 5px 5px 0 5px;
+	margin: 0 auto 4px auto;
+	border-radius: 5px;
+}
+.StatisticheImg {
+	width: 20px;
+	height: 20px;
+}
+.StatisticheTextBox {
+	padding: 2px 0;
+	position: relative;
+	top: -5px;
+}
+
+#VideoGuest{
+	top: 10px;
+	width: 60%;
+	height:325px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#F0F0F0;
+	margin: auto;
+}
+
+#VideoGuest video{
+	width:100%;
+	height:100%;
+	
+}
+
+#sourcevidUtente {
+	width: 185px;
+	height: 173px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#F0F0F0;
+	margin: auto;	
+}
+
+.NomeUtente {
+background-color: rgba(81, 81, 81, 1);
+width: 70%;
+margin:auto;
+border: solid black 1px;
+margin-top: 10px;
+}
+.NomeUtente img{
+widht: 100px;
+height: 100px;
+float:left;
+margin: 5px 2px 5px 30%;
+border: solid black 2px;
+}
+.NomeProfilo {
+position: relative;
+top: 25px;
+widht: 50px;
+}
+.NomeProfilo p{
+color: white;
+font-size: 1.4em;
+float:clear;
+}
+.NomeProfilo span {
+color: black;
+}
+
+.Registrazione {
+	width: 60%;
+	margin: 80px auto;
+}
+.Registrazione div,input{
+width: 80%;	
+}
+.Registrazione .BtnRegistra{
+	width: 100%;
+	padding: 10px;
+}
+.LoginView {
+	width: 30%;
+	margin: 200px auto;
+	text-align: center;
+}
+.LoginView .BtnAccedi{
+	width: 100%;
+	padding: 10px;
+}
+
+#TestoConferma{	text-align: center;}
+
+#LabelConfermaId{display: block;}
+
+#ConfermaIdBox{display: inline;}
+
+#LabelConfermaCodice{display: block;}
+
+#ConfermaCodiceBox{display: inline;}
+
+
+
+
+/** Codice PopUpChiamata */
+#PopUpChiamata {
+background-color: rgba(81, 81, 81, 1);
+}
+#ImmagineUtente{
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin: 10px;
+	border-radius: 5px;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px #888888;
+}
+#Testo {
+	padding: 50px;
+}
+#TestoChiamata{
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+#NomeUtente{
+	font-size: 1.4em;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	font-weight:bold;
+}
+#Testo .Button{
+padding: 15px;
+font-size: 1.6em;
+font-weight:bold;
+color: white;
+}
+#Testo #Accetta{
+background-color: green;
+border-radius: 5px 0 0 5px;
+}
+#Testo #Rifiuta {
+background-color: red;
+border-radius: 0 5px 5px 0;
+}
+/** Fine Codice PopUpChiamata */
+
+
+
+/** Codice ListaContatti */
+---- LISTA UTENTI ----
+#ListaContatti {
+ height: 300px;
+ margin: 4px;
+ overflow: auto;
+}
+#NomeGruppo{
+padding: 5px;
+font-weight:bold;
+background-color: grey;
+margin-bottom: 5px;
+}
+
+#ListaContatti .bottone {
+width: 100%;
+padding: 8px;
+margin: 0;
+font-weight:bold;
+font-size: 1.2em;
+}
+
+#GruppoUtenti .Utente {
+background-color: white;
+padding: 2px;
+margin-bottom: 4px;
+margin-right: 5px;
+}
+.Stato{
+width:25px;
+height:25px;
+}
+.Foto{
+width:40px;
+height:40px;
+ }
+.NomeUtenteLista{
+display: inline;
+position:relative;
+font-size: 0.85em;
+margin-left: 5px;
+position: relative;
+top: -10px;
+font-weight:bold;
+}
+#GruppoUtenti #BottoniChiamata{
+	display:inline;
+	float:right;
+}
+
+#GruppoUtenti button {
+width: 20px;
+height: 20px;
+padding: 2px;
+}
+
+#BottoniChiamata #Chiamata { display:inline;}
+
+#BottoniChiamata #Profilo { display:inline;}
+
+#BottoniChiamata #Messaggio { display:inline;}
+
+/** Codice PaginaPrincipale */
+#PagPrincipale p{
+	text-align: center;
+	font-size: 1.2em;	
+}
+#PagPrincipale #video{
+	width: 90%;
+	heigth: 600px;
+	margin: auto;
+}
+#PagPrincipale #videoTutorial{
+	width: 100%;
+	heigth: 600px;
+	background-color: white;
+	border: 5px solid black;
+	}
+/** Codice Registrazione */
+#RecuperoPassword {
+	width: 85%;
+	margin: 100px auto;
+	text-align: center;
+}
+#RecuperoPassword #Email{
+	display: inline;
+}
+#RecuperoPassword #Errore{
+	color: red;
+	}
+#RecuperoPassword table{
+	margin: auto;
+	}
+	
+	
+/**Popup*/
+
+#PopupMessage{
+	width: 200px;
+	height: 100px;
+}
+#PopupMessage #TestoPopUp{
+	text-align: center;
+	margin: 10px 0;
+}	
+#PopupMessage ButtonPopup{
+	position: relative;
+	left: 40%;
+}	
+}
+
+/** Codice Profilo */
+#Profilo #titolo{
+	background-color: black;
+	color: white;
+	margin: 5px;	
+}
+#Profilo #titolo h1{
+	padding-left: 10px;	
+	font-size: 1.8em;
+}
+#Profilo #sottotitolo{
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	margin: 5px;	
+}
+#Profilo #sottotitolo h2{
+	font-size: 1.2em;
+	text-align: center;
+}
+#Profilo #immagineProfilo{
+	width: 150px;
+	height: 180px;
+	margin: 0 5px;
+	float: left;
+}
+#Profilo #immagineProfilo #ImmagineProfilo{
+	width: 140px;
+	height: 135px;
+	margin: 5px 5px 2px 5px ;
+}
+#Profilo #immagineProfilo #Modifica{
+	position: relative;
+	left: 40px;
+}
+#Profilo #datiPersonali{
+	width: 100%;
+}
+#Profilo #datiPersonali h1{
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	font-size: 1.4em;
+	margin: 3px 3px 1px 3px;
+	padding: 3px 3px 3px 10px;	
+}
+#Profilo #datiPersonali .Pannello{
+width: 23%;
+float: left;
+margin: 1px 2px;
+min-height: 50px;
+}
+#Profilo #datiPersonali #pannello5{
+width: 93%;
+clear:both;
+margin: 3px;
+}
+#Profilo #datiPersonali #pannello5 #Errore{
+display: inline;
+position: relative;
+left: 200px;
+color: red;
+font-weight: bold;
+text-align: center;
+}
+#Profilo #datiPersonali #pannello5 #Modifica{
+display: inline;
+float: right;
+}
+#Profilo #datiPersonali .DatiSX{
+	padding: 5px;
+	font-size: 1em;
+}
+#Profilo #datiPersonali .DatiDX{
+	padding: 5px;
+	font-weight: bold;
+}
+#Profilo #datiPersonali .DatiD{
+	margin: 2px 0;
+}
+#Profilo #datiEstesi{
+	width: 100%;
+}
+#Profilo #datiEstesi h1{
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	font-size: 1.4em;
+	margin: 3px;
+	padding: 3px 3px 3px 10px;	
+}
+#Profilo #datiEstesi .Pannello{
+width: 24%;
+float: left;
+margin: 2px;
+font-size: 0.9em;
+}
+#Profilo #datiEstesi .DatiDX{
+	font-weight: bold;
+}
+#Profilo #datiEstesi #pannello6 {
+	width: 48%;
+}
+#Profilo #datiEstesi #pannello7 {
+	width: 24%;
+}
+#Profilo #datiEstesi #pannello7 button {
+	height: 25px;
+}
+#Profilo #datiEstesi .PannelloDesc{
+width: 31%;
+float: left;
+margin: 10px 4px;
+}
+#Profilo #datiEstesi .PannelloDescBoth{
+width: 32%;
+float: left;
+margin: 4px;
+height: 173px;
+clear:both;
+}
+#Profilo #datiEstesi .PannelloDesc #Titolo {
+	font-size: 1em;
+	font-weight: bold;
+}
+#Profilo #datiEstesi .PannelloDesc #TestoDesc {
+	text-align: left;
+	background-color: white;
+	overflow: auto;
+	height: 120px;
+}
+#Profilo #datiEstesi .PannelloDesc #TestoDesc #contenutoTestoTB {
+	width: 96%;
+	height: 90%;
+}
+#Profilo #datiEstesi .PannelloDesc button {
+	width: 100%;
+	margin: 2px auto;
+	
+}
+
+#Profilo #datiEstesi .PannelloDescBoth #Titolo {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#Profilo #datiEstesi .PannelloDescBoth #TestoDesc {
+	text-align: left;
+	background-color: white;
+	overflow: auto;
+	height: 120px;
+}
+#Profilo #datiEstesi .PannelloDescBoth #TestoDesc #contenutoTestoTB {
+	width: 96%;
+	height: 90%;
+}
+#Profilo #datiEstesi .PannelloDescBoth button {
+	width: 100%;
+	margin: 2px auto;
+	
+}
+#Profilo #footer{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+#Profilo #footer button{
+	width: 30%;
+}
+
+#Messaggi #contenutoMessaggi{
+	width: 95%;
+	height: 185px;
+	margin: 5px auto;
+	padding: 4px;
+	overflow: auto;
+}
+
+#Messaggi #contenutoMessaggi #MessaggioTesto{
+	margin-top: 3px;
+	background-color: white;
+	padding: 5px;
+	border: 2px solid black;
+	}
+	#Profilo #Messaggi #contenutoMessaggi #MessaggioTesto #Utente{
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+
+#Messaggi #contenutoAmicizie{
+	width: 95%;
+	height: 185px;
+	margin: 5px auto;
+	padding: 10px;
+	overflow: auto;
+}
+#Messaggi #contenutoAmicizie #MessaggioAmicizia {
+	margin-top: 3px;
+	background-color: white;
+	padding: 5px;
+	border: 2px solid black;
+}
+Messaggi #contenutoAmicizie #MessaggioAmicizia #Utente{
+	float:left;
+	}
+#Messaggi #contenutoAmicizie #MessaggioAmicizia #Bottone {
+	float:right;
+	padding: 0 40px;
+	margin: 0 10px;
+	font-size: 1.2em;
+	}
+#PopUpMail {
+	width: 300px;
+	height: 120px;
+}
+#PopUpMail #TestoCodice{
+text-align: center;
+padding: 10px;
+	}
+#PopUpMail #Codice{
+	width: 100px;
+	margin: auto;
+	display: block;
+	}
+#PopUpMail button{
+	margin: 10px;
+	}
+#PopUpMail #Continua{
+	float: right;
+	}
+	
+	#PopUpAvatar {
+	width: 300px;
+	height: 120px;
+}
+
+#PopUpAvatar #Url{
+	width: 100px;
+	margin: auto;
+	display: block;
+	}
+#PopUpAvatar button{
+	margin: 10px;
+	}
+#PopUpAvatar #Continua{
+	float: right;
+	}
+	
+	/** Codice PopUpMessaggio */
+	#PopUpMessaggio {
+	width: 295px;
+	height: 150px;
+	padding: 5px;
+	}
+	#PopUpMessaggio #Nome{
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+	
+	#PopUpMessaggio #Label{
+	font-size: 0.8em;
+	}
+	
+	#PopUpMessaggio #Errore{
+	font-size: 0.8em;
+	color:rgb(255,0,0);
+	}
+	
+	#PopUpMessaggio #Messaggio{
+	width: 285px;
+	height: 50px;
+	}
+	#PopUpMessaggio button{
+	width: 45%;
+	margin: 4px 6px;
+	}
+	/** Codice GestioneContatti */
+	#GestioneContatti {
+	
+	}
+	#GestioneContatti #titolo{
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	margin: 3px;
+	padding: 3px 3px 3px 10px;	
+	}
+	#GestioneContatti #titoloAmico{
+	background-color: black;
+	color: white;
+	margin: 3px;
+	padding: 1px;
+	text-align: center;
+	}
+	#GestioneContatti #TestoUsername{
+	margin: 5px 10px;
+	font-size: 1.2em;
+	}
+	#GestioneContatti #TBUsername{
+	margin: 5px 10px;
+	}
+	#GestioneContatti #richiesteAmicizia{
+	width: 60%;
+	float: left;
+	}
+	#GestioneContatti #Amicizie{
+	width: 40%;
+	}
+	#titoloRichiesteAmicizia {
+	background-color: black;
+	color: white;
+	margin: 3px 2px 2px 3px;
+	padding: 1px;
+	text-align: center;
+	}
+	#titoloAmicizie {
+	background-color: black;
+	color: white;
+	margin: 3px 2px 2px 3px;
+	padding: 1px;
+	text-align: center;
+	}
+	#PanelloRichiesteAmicizia {
+	border: 2px solid black;
+	height: 300px;
+	margin: 4px;
+	overflow: auto;
+	}
+
+	#PanelloAmicizie {
+	border: 2px solid black;
+	height: 300px;
+	margin: 4px;
+	overflow: auto;
+	}
+	
+	#RischiestaUtente {
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	width: 95%;
+	padding: 10px;
+	margin: 2px auto;
+	}
+	#TestoRA{
+	display: inline;
+	font-weight: bold;
+	}
+	#ButtonAccetta{
+	float: right;
+	margin: 0 3px;
+	}
+	#ButtonRifiuta{
+	float: right;
+	margin: 0 3px;
+	}
+	
+	#UtenteAmico {
+	background-color: rgba(81, 81, 81, 1);
+	color: white;
+	width: 92%;
+	padding: 10px;
+	margin: 2px auto;
+	}
+	#TestoUA {
+	display: inline;
+	font-weight: bold;
+	}
+	#ButtonElimina {
+	float: right;
+	margin: 0 3px;
+	}
+	
